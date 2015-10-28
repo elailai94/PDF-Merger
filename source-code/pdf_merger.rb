@@ -8,13 +8,13 @@
 
 require 'combine_pdf'
 
-combined_pdf = CombinePDF.new
 text_file = ARGV[0]
 combined_pdf_file = ARGV[1]
+combined_pdf = CombinePDF.new
 
 IO.foreach(text_file) do |line|
    individual_pdf_file = "#{line}.pdf"
-   puts "Loading #{individual_pdf_file} into the combined PDF."
+   puts "Loading #{individual_pdf_file.chomp} into the combined PDF."
    combined_pdf << CombinePDF.load(individual_pdf_file)
 end
 
