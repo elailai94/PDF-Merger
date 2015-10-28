@@ -2,7 +2,7 @@
 # PDF Merger
 #
 # @author: Elisha Lai
-# @description: Program to combine multiple PDFs into one single PDF
+# @description: Script to combine multiple PDFs into one single PDF
 # @version: 1.1 28/10/2015
 #===================================================================
 
