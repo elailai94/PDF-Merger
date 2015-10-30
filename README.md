@@ -2,8 +2,8 @@
 ### About
 PDF Merger is a simple script to combine multiple PDFs into one single PDF. It is written entirely in Ruby.
 
-### Dependencies
-This script makes use of the gem '[CombinePDF](https://github.com/boazsegev/combine_pdf)' by Boaz Segev. Prior to running the script, you must install the gem by executing the following command:
+### Dependency Installation
+This script depends on the gem '[CombinePDF](https://github.com/boazsegev/combine_pdf)' by Boaz Segev. Prior to running the script, you must install the gem by executing the following command:
 ```Bash
 gem install combine_pdf
 ```
