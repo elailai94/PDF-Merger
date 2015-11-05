@@ -1,4 +1,5 @@
 # PDF Merger
+[![Ruby Badge](http://forthebadge.com/images/badges/built-with-ruby.svg)](http://forthebadge.com)
 ### About
 PDF Merger is a simple script to combine multiple PDFs into one single PDF. It is written entirely in Ruby.
 
